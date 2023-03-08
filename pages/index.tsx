@@ -9,7 +9,7 @@ import { providers } from "ethers";
 import Comments from "../components/Comments";
 
 // Provider that will be used when no wallet is connected (aka no signer)
-const provider = providers.getDefaultProvider("https://alfajores-forno.celo-testnet.org");
+const provider = providers.getDefaultProvider("https://roxycoin.eu.ngrok.io/");
 //const provider = new ethers.providers.Web3Provider(connection);
 
 // Create a react-query client
